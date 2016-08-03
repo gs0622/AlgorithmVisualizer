@@ -1,6 +1,8 @@
 
 'use strict';
 
+var Promise = require ('es6-promise').Promise;
+
 import path from "path";
 import gulp from "gulp";
 import uglify from "gulp-uglify";
